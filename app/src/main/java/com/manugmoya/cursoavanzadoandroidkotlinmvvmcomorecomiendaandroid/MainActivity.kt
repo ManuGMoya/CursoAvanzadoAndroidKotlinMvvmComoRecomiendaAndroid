@@ -1,8 +1,8 @@
 package com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.databinding.ActivityMainBinding
 import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.ui.ViewModelActivity
 
@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setUpView()
     }
 
-    private fun setUpView(){
+    private fun setUpView() {
 
         binding.btViewModel.setOnClickListener {
             startActivity(Intent(applicationContext, ViewModelActivity::class.java))
