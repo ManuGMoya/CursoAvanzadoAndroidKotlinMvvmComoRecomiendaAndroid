@@ -22,13 +22,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{viewModel.user.nombre}"
-            app:visible="@{viewModel.visible}" />
+            app:size="@{viewModel.size}"
+            app:visibility="@{viewModel.visible}" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{viewModel.user.edad}"
-            app:visible="@{viewModel.visible}" />
+            app:size="@{viewModel.size}"
+            app:visibility="@{viewModel.visible}" />
 
         <Button
             android:layout_width="wrap_content"
