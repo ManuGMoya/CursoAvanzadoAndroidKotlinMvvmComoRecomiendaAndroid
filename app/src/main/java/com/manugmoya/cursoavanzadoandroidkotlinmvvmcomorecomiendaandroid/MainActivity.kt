@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.databinding.ActivityMainBinding
+import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.ui.DataBindingActivity
 import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.ui.LiveDataActivity
 import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.ui.UserViewModelActivity
 import com.manugmoya.cursoavanzadoandroidkotlinmvvmcomorecomiendaandroid.ui.ViewModelActivity
@@ -39,12 +40,12 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-/*
-        btDataBinding.setOnClickListener {
+
+        binding.btDataBinding.setOnClickListener {
             startActivity(Intent(applicationContext, DataBindingActivity::class.java))
         }
 
-
+/*
         btDBLABinding.setOnClickListener {
             startActivity(Intent(applicationContext, DBLDActivity::class.java))
         }*/
