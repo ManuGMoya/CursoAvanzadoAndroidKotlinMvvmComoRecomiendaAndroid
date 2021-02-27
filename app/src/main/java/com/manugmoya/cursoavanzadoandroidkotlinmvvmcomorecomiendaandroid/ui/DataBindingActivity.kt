@@ -22,7 +22,4 @@ class DataBindingActivity : AppCompatActivity() {
         binding.user = user
     }
 
-    private fun setUpView() {
-        TODO("Not yet implemented")
-    }
 }
